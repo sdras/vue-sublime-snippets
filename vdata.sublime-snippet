@@ -1,23 +1,12 @@
 <snippet>
 	<content><![CDATA[
-<template>
-	<div>
-		
-	</div>
-</template>
-
-
-<script>
-	export default {
-
-	}
-</script>
-
-<style scoped>
-	
-</style>
+data: function () {
+  return {
+    key: value
+  };
+}
 ]]></content>
-	<tabTrigger>vbase</tabTrigger>
+	<tabTrigger>vdata</tabTrigger> 
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.vue</scope> -->
 </snippet>
