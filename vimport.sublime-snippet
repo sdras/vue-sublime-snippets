@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+import New from './components/New.vue';
+]]></content>
+<tabTrigger>vimport</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.vue</scope> -->
+</snippet>
