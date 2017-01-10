@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+methods: {
+  beforeEnter(el) {
+    console.log('beforeEnter');
+  }, 
+  enter(el, done) {
+     console.log('enter');
+     done();
+  },
+  afterEnter(el) {
+    console.log('afterEnter');
+  }, 
+  enterCancelled(el, done) {
+     console.log('enterCancelled');
+  },
+  beforeLeave(el) {
+    console.log('beforeLeave');
+  }, 
+  leave(el, done) {
+     console.log('leave');
+     done();
+  },
+  afterLeave(el) {
+    console.log('afterLeave');
+  }, 
+  leaveCancelled(el, done) {
+     console.log('leaveCancelled');
+  }
+}
+]]></content>
+<tabTrigger>vanim:js:method</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.vue</scope> -->
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<transition 
+  @before-enter="beforeEnter"
+  @enter="enter"
+  @after-enter="afterEnter"
+  @enter-cancelled="enterCancelled"
+
+  @before-Leave="beforeLeave"
+  @leave="leave"
+  @after-leave="afterLeave"
+  @leave-cancelled="leaveCancelled"
+  :css="false">
+ 
+ </transition>
+]]></content>
+  <tabTrigger>vanim:js:el</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.vue</scope> -->
+</snippet>
