@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+getters: {
+	value: state => {
+		return state.value;
+	}
+}
+]]></content>
+<tabTrigger>vgetters</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.vue</scope> -->
+</snippet>

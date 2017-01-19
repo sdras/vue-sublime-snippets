@@ -5,7 +5,7 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
-export const = new Vuex.Store({
+export const store = new Vuex.Store({
 	state: {
 		key: value
 	}
