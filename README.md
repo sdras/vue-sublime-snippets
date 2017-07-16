@@ -5,7 +5,7 @@ Not all of the files here are precisely for Vue development (such as the gitigno
 
 Any files that are specifically vue-related begin with a 'v'.
 
-##Usage
+## Usage
 Place the files enclosed that end with the `.sublime-snippet` extension in your Sublime User folder. Typically, this will exist at pwd `~/Library/Application Support/Sublime Text 3/Packages/User`, but will be applied correctly wherever `Sublime Text (version)/Packages/User` is found
 
 Basic setup for the snippets are as follows:
@@ -22,5 +22,5 @@ snippet code goes here
 </snippet>
 ```
 
-###Options
+### Options
 If there are different tiers of complexity, they are denoted with shorthand `:`, for instance, props keybinding is `vprops` for basic usage and type designation, but `vprops:d` to include defaults.
