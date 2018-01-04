@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 actions: {
-	updateValue({commit}, payload) {
-		commit(updateValue, payload);
-	}
+  updateValue({commit}, payload) {
+    commit(updateValue, payload);
+  }
 }
 ]]></content>
 <tabTrigger>vactions</tabTrigger>

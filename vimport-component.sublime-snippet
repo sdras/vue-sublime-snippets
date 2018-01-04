@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-import New from './components/New.vue';
+import $1 from './components/$1.vue';
 
 export default {
   components: {
-  	appNew: New
+    app$1: $1
   }
 }
 ]]></content>
