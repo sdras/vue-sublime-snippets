@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 getters: {
-	value: state => {
-		return state.value;
-	}
+  value: state => {
+    return state.value;
+  }
 }
 ]]></content>
 <tabTrigger>vgetters</tabTrigger>

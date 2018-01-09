@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-<div v-for="item in items" :key="item.id">
-  {{ item }}
+<div v-for="$1 in $2" :key="$1.id">
+  {{ $1 }}
 </div>
 ]]></content>
-	<tabTrigger>vfor</tabTrigger> 
+	<tabTrigger>vfor</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.vue</scope> -->
 </snippet>

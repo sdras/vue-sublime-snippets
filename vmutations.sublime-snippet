@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 mutations: {
-	updateValue: (state, payload) => {
-		state.value = payload;
-	}
+  updateValue: (state, payload) => {
+    state.value = payload;
+  }
 }
 ]]></content>
 <tabTrigger>vmutations</tabTrigger>
